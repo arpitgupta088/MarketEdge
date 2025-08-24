@@ -7,7 +7,7 @@ import Education from './Education';
 import OpenAccount from '../OpenAccount';
 import NavBar from '../Navbar';
 import Footer from '../Footer';
-
+import "../../index.css";
 function HomePage() {
     return (
         <>
