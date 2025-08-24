@@ -15,3 +15,57 @@ code {
 .nav-link{
   margin-left: 10px;
 }
+
+/* Hero Section Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1.text-center {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #1a237e;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.col-6 {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.col-6 p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.border-top {
+    border-top: 2px solid #e3e3e3 !important;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* @media (max-width: 900px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-6 {
+        width: 100%;
+        padding: 1.5rem !important;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+} */
