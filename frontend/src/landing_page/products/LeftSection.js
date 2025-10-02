@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../index.css";
 function LeftSection({imageURL, productName, productDescription, tryDemo, learnMore, googlePlay, appStore}) {
     return ( 
         <div className='container'>
@@ -10,8 +11,8 @@ function LeftSection({imageURL, productName, productDescription, tryDemo, learnM
                     <h1>{productName}</h1>
                     <p>{productDescription}</p>
                     <div>
-                    <a href={tryDemo}>Try Demo</a>
-                    <a href={learnMore} style={{marginLeft:'50px'}}>Learn more</a>
+                    <a href={tryDemo} style={{textDecoration:"none"}}>Try Demo</a>
+                    <a href={learnMore} style={{marginLeft:'50px', textDecoration: "none"}}>Learn more</a>
                     </div>
                     <div className='mt-3'>
                         <a href={googlePlay}><img src="media/images/googlePlayBadge.svg" /></a>

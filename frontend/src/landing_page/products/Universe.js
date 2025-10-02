@@ -1,8 +1,9 @@
 import React from "react";
+import "../../index.css";
 
 function Universe() {
   return (
-    <div className="container mt-5">
+    <div className="container universe-section mt-5">
       <div className="row text-center">
         <h1 className="mt-5">Apna MarketEdge Universe</h1>
         <p>
@@ -47,8 +48,13 @@ function Universe() {
           </p>
         </div>
         <div>
-        <button className="p-3 btn btn-primary fs-5 mb-5" style={{width:"20%", margin:"0 auto"}}>Signup Now</button>
-      </div>
+          <button
+            className="p-3 btn btn-primary fs-5 mb-5"
+            style={{ width: "20%", margin: "0 auto" }}
+          >
+            Signup Now
+          </button>
+        </div>
       </div>
     </div>
   );
