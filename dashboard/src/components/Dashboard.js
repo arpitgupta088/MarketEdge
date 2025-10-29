@@ -6,12 +6,16 @@ import Orders from './Orders';
 import Holdings from './Holdings';
 import Funds from './Funds';
 import Apps from './Apps';
+import { GeneralContextProvider } from "./GeneralContext";
 
 
 const Dashboard = () => {
     return (
         <div className="dashboard-container">
+            <GeneralContextProvider>
             <WatchList />
+            </GeneralContextProvider>
+          
             <div className="content">
                 <Routes>
                     <Route exact path="/" element={<Summary />} />
